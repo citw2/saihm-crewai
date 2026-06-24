@@ -1,0 +1,16 @@
+{
+  "name": "saihm-crewai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Python CrewAI memory storage backed by SAIHM through a local Node MCP sidecar: owned, portable, provably-erasable agent memory. Python holds no keys; the sidecar seals every cell client-side.",
+  "scripts": { "start": "node server.mjs" },
+  "license": "Apache-2.0",
+  "author": "SAIHM",
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@saihm/mcp-server-pro": "^0.1.0",
+    "@saihm/client-pro": "^0.1.1"
+  }
+}
