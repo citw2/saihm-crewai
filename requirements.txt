@@ -1,4 +1,4 @@
-# Core client needs only `mcp` (drives the Node sidecar over MCP stdio).
-mcp>=1.0
+# Core client needs only `mcp` (drives the Node sidecar over MCP stdio); >=1.5 for StdioServerParameters cwd=.
+mcp>=1.5
 # CrewAI adapter (version pinned to what this demo was verified against):
 crewai>=1.14,<2      # for saihm_memory.SaihmStorageBackend (crewai StorageBackend)
